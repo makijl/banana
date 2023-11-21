@@ -1,0 +1,53 @@
+
+.App{   
+    margin-top: 150px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.forms-container{
+    border-radius: 20px;
+    color: rgb(170, 0, 255);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 800px;
+    height: 500px;
+    flex-shrink: 0;
+    background-color: #ef44ff48;
+    opacity: 0.5;
+    transition: opacity 1s ease-in-out;
+}
+
+.forms-container {
+    background-image: linear-gradient(to right, #ef44ff48 0%, #000080 50%, #ef44ff48 100%);
+    animation: water-animation 1s infinite linear;
+  }
+  
+  @keyframes water-animation {
+    from {
+      background-position: 0 0;
+    }
+    to {
+      background-position: 100% 0;
+    }
+  }
+  
+
+.forms-container:hover {
+    opacity: 1;
+  }
+
+.ButtonA{
+    color: #000;
+    font-family: Fira Mono;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.FormA{
+    width: 500px;
+}

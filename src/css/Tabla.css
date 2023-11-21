@@ -1,0 +1,44 @@
+.table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  /* Estilo para las celdas de encabezado */
+  .table thead th {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  /* Estilo para las celdas de datos */
+  .table tbody td {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  .table tbody td button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .table tbody td button:hover {
+    background-color: #0056b3;
+  }
+  
+
+  .btn-primary {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  /* Cambiar el color de fondo al pasar el mouse sobre el botón "Guardar" */
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
